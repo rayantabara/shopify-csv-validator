@@ -1,0 +1,26 @@
+{
+  "name": "shopify-csv-validator",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI validator to catch duplicate SKUs, missing prices, comma decimals, and broken headers in Shopify product CSVs before importing.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "shopify-csv-validator": "./index.mjs"
+  },
+  "keywords": [
+    "shopify",
+    "csv",
+    "validator",
+    "ecommerce",
+    "woocommerce",
+    "prestashop",
+    "sku",
+    "catalog"
+  ],
+  "homepage": "https://fichasync.app/shopify-csv-validator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayantabara/shopify-csv-validator.git"
+  },
+  "license": "MIT"
+}
